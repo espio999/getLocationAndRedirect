@@ -2892,3 +2892,7 @@ let userCountry = getCountry();
 if (prohibited_countries.includes(userCountry)){
   window.location.replace(redirect_destination);
 }
+else{
+  $country.textContent = userCountry;
+}
+	
