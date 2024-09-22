@@ -2895,4 +2895,3 @@ if (prohibited_countries.includes(userCountry)){
 else{
   $country.textContent = userCountry;
 }
-	
