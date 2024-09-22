@@ -2885,12 +2885,12 @@ const $country = document.querySelector(`#country`);
 //$country.textContent = getCountry();
 //$state.textContent = getState();
 
-let redirect_destination = "https://www.aol.com"
-let prohibited_countries = ["China", "Singapore"]
+const REDIRECT_DESTINATION = "https://www.aol.com"
+const PROHIBITED_COUNTRIES = ["China", "Singapore"]
 let userCountry = getCountry();
 
-if (prohibited_countries.includes(userCountry)){
-  window.location.replace(redirect_destination);
+if (PROHIBITED_COUNTRIES.includes(userCountry)){
+  window.location.replace(REDIRECT_DESTINATION);
 }
 else{
   $country.textContent = userCountry;
