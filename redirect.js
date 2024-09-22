@@ -2885,7 +2885,9 @@ const $country = document.querySelector(`#country`);
 //$country.textContent = getCountry();
 //$state.textContent = getState();
 
-const REDIRECT_DESTINATION = "https://www.aol.com"
+//const REDIRECT_DESTINATION = "https://www.aol.com"
+//const REDIRECT_DESTINATION = "https://www.reversedfront.tw/pages/bgjp"
+const REDIRECT_DESTINATION = "https://chinadigitaltimes.net/space/CDS%E4%B8%93%E9%A1%B5%EF%BC%9A%E6%95%8F%E6%84%9F%E8%AF%8D%E5%BA%93"
 const PROHIBITED_COUNTRIES = ["China", "Singapore"]
 let userCountry = getCountry();
 
