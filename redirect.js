@@ -2895,5 +2895,5 @@ if (PROHIBITED_COUNTRIES.includes(userCountry)){
   window.location.replace(REDIRECT_DESTINATION);
 }
 else{
-  $country.textContent = userCountry;
+//  $country.textContent = userCountry;
 }
